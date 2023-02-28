@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="main.js" type="module"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Create your Tamagotchi</h1>
+      <form>
+        <label for="name-input"></label>
+        <input type="text" placeholder="Tamagotchi Name" id="name-input" name="name-input" />
+        <p>Choose Charachter</p>
+        <div class="character-container"> <input type="radio" id="mametchi" name="character" value="mametchi" checked>
+          <label for="mametchi">Mametchi</label>
+          <input type="radio" id="lovelin" name="character" value="lovelin">
+          <label for="lovelin">Lovelin</label>
+          <input type="radio" id="chamametchi" name="character" value="chamametchi">
+          <label for="chamametchi">Chamametchi</label>
+          <input type="radio" id="kuchipatchi" name="character" value="kuchipatchi">
+          <label for="kuchipatchi">Kuchipatchi</label></div>
+       
+        <button id="submitBtn">Submit</button>
+      </form>
+    </header>
+    <div class="bg-image container">
+    <div id="tamagotchiContainer">
+      
+    </div>
+  </div>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+
+
+.container{
+   min-height: 100vh;  
+   width: 100%;
+}
+ .bg-image{
+    position: relative;
+    
+}
+.bg-image:after {
+    margin: 0;
+    padding: 0;
+    content:'';
+    background: url('../images/tamagotchi.jpg');
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    top:0px;
+    left: 0px;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    opacity: 0.5; /* Here is your opacity */
+}
+header{
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    
+}
+h1{
+    text-align: center;
+    font-family: 'Shantell Sans', cursive;
+    color: rgb(232,149,159);
+}
+
+form{
+    
+    width: 500px;
+}
+
+#name-input{
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding-left: 20px;
+    font-family: 'Shantell Sans', cursive;
+    box-shadow: 0 2px 5px 0 rgba(230, 146, 146, 0.15);
+}
+
+.character-container{
+    display: flex;
+    font-family: 'Shantell Sans', cursive;
+    justify-content: space-between;
+    
+    
+}
